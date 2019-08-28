@@ -1,0 +1,37 @@
+// Mixins Here
+.bodyStyle{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.bodystyle2{
+    font-size: 4rem;
+}
+
+.h1{
+    padding-bottom: 5%;
+}
+
+.nav{
+    font-size: 1.4rem;
+}
+
+.flexbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-mk (@fat: 35%, @color: white){
+    width: @fat;
+    color: @color;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
+.img-none{
+    @media @phone{
+        display: none;
+    }
+}
