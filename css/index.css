@@ -208,6 +208,20 @@ a:active {
   color: black;
   background-color: transparent;
 }
+@keyframes slide {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.payment-options {
+  margin-bottom: 30px;
+  animation-duration: 4s;
+  animation-name: slide;
+  max-width: 100%;
+}
 #links {
   display: flex;
   justify-content: center;
@@ -327,7 +341,6 @@ footer {
 }
 .home .walk {
   margin-top: 60px;
-  border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;

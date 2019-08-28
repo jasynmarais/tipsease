@@ -64,3 +64,19 @@
     color: black;
     background-color: transparent;
   }
+
+  @keyframes slide {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+  .payment-options {
+      margin-bottom: 30px;
+      animation-duration: 4s;
+      animation-name: slide;
+      max-width: 100%;
+  }
