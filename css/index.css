@@ -177,6 +177,11 @@ h3 {
   font-size: 2.8rem;
   text-align: center;
 }
+h4 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 2%;
+}
 p {
   font-size: 1.6rem;
   line-height: 1.4;
@@ -185,6 +190,23 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+  background-color: transparent;
+}
+a:active {
+  color: black;
+  background-color: transparent;
 }
 #links {
   display: flex;
